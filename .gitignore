@@ -1,0 +1,17 @@
+# Environment variables & sensitive data
+.env
+.env.*
+*.env
+
+# Node dependencies
+node_modules/
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*

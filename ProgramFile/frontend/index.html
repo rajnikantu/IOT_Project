@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IoT Waste Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🗑️ Smart E-Waste Dashboard</h1>
+    <p class="sub">Municipality Office Monitoring System</p>
+    <p id="lastUpdated" class="meta">Loading...</p>
+
+    <div id="binsGrid" class="grid"></div>
+
+    <div class="actions">
+      <button onclick="getData()" class="btn">🔄 Refresh</button>
+      <button onclick="getRoute()" class="btn primary">🚛 TSP Route</button>
+    </div>
+
+    <div id="routeResult" class="card route-card" style="display:none"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

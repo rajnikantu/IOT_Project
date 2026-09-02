@@ -1,0 +1,32 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, -apple-system, sans-serif; }
+body { background: #f4f6f8; color: #333; padding: 24px 16px; }
+.container { max-width: 850px; margin: 0 auto; text-align: center; }
+h1 { color: #1e293b; font-size: 24px; margin-bottom: 4px; }
+.sub { color: #64748b; font-size: 14px; margin-bottom: 6px; }
+.meta { color: #94a3b8; font-size: 12px; margin-bottom: 24px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin-bottom: 24px; text-align: left; }
+.card { background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.card h3 { font-size: 16px; color: #0f172a; margin-bottom: 4px; }
+.card p { font-size: 12px; color: #64748b; margin-bottom: 10px; }
+
+.progress { width: 100%; height: 18px; background: #e2e8f0; border-radius: 9px; overflow: hidden; margin-bottom: 10px; }
+.bar { height: 100%; font-size: 11px; font-weight: bold; color: #fff; text-align: center; line-height: 18px; transition: width 0.4s; }
+.bg-empty { background: #22c55e; }
+.bg-half { background: #f59e0b; }
+.bg-full { background: #ef4444; }
+
+.badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; text-transform: uppercase; }
+.badge-empty { background: #dcfce7; color: #15803d; }
+.badge-half { background: #fef3c7; color: #b45309; }
+.badge-full { background: #fee2e2; color: #b91c1c; }
+
+.actions { margin-bottom: 20px; }
+.btn { padding: 10px 20px; font-size: 14px; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; background: #e2e8f0; color: #334155; margin: 0 4px; transition: opacity 0.2s; }
+.btn.primary { background: #2563eb; color: #fff; }
+.btn:hover { opacity: 0.9; }
+
+.route-card { text-align: left; margin-top: 16px; }
+.step { padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-size: 14px; color: #334155; }
+.step:last-of-type { border-bottom: none; }
+.total { margin-top: 14px; padding: 10px; background: #eff6ff; color: #1e40af; border-radius: 6px; font-weight: bold; text-align: center; }
