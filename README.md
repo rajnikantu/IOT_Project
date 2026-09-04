@@ -22,7 +22,7 @@ IOT_Project/
 ├── IOT_Project_detailed_description.pdf
 └── ProgramFile/
     ├── backend/
-    │   ├── .env              # Sensitive environment variables (Ignored by Git)
+    │   ├── .env              # Sensitive environment variables 
     │   ├── .env.example      # Sample environment template
     │   ├── index.js          # Express server & TSP routing logic
     │   ├── simulator.js       # Arduino sensor mock script
