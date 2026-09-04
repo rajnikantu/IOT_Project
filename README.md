@@ -1,10 +1,10 @@
-# 🗑️ IoT Smart E-Waste Management & Optimization System
+#  IoT Smart E-Waste Management & Optimization System
 
 An IoT-enabled smart e-waste monitoring and collection route optimization system. The platform monitors waste fill-levels in real time across city bins (simulating ultrasonic sensor hardware) and uses the **Traveling Salesperson Problem (TSP)** nearest-neighbor algorithm to compute the shortest, most efficient collection route for municipal trucks.
 
 ---
 
-## 📌 Key Features
+##  Key Features
 
 - **Real-Time Waste Level Monitoring**: Live tracking of bin statuses (`empty`, `half`, `full`).
 - **IoT Hardware Simulator (`simulator.js`)**: Replaces physical Arduino Uno + Ultrasonic sensors by simulating periodic telemetry POST requests to the backend server.
@@ -14,7 +14,7 @@ An IoT-enabled smart e-waste monitoring and collection route optimization system
 
 ---
 
-## 📁 Directory Structure
+##  Directory Structure
 
 ```
 IOT_Project/
@@ -36,7 +36,7 @@ IOT_Project/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend**: Node.js, Express.js, MongoDB (Mongoose), `dotenv`, `cors`
 - **Frontend**: Vanilla HTML5, CSS3, JavaScript (Fetch API)
@@ -45,7 +45,7 @@ IOT_Project/
 
 ---
 
-## 🚀 Setup & Execution Guide
+##  Setup & Execution Guide
 
 ### 1. Prerequisites
 - [Node.js](https://nodejs.org/) (v16+ recommended)
@@ -75,4 +75,4 @@ npm run sim
 ### 5. Open Dashboard
 Open your web browser and visit: **`http://localhost:<PORT>`** (where `<PORT>` is the port specified in your `.env` file).
 
-Click **"🚛 TSP Route"** to generate the shortest pickup path for full bins.
+Click **"TSP Route"** to generate the shortest pickup path for full bins.
